@@ -1,7 +1,7 @@
 import pygame, sys, copy
-from paddle import Paddle
-from ball import Ball
-from AI import NeuralNetwork
+from util.paddle import Paddle
+from util.ball import Ball
+from util.AI import NeuralNetwork
 pygame.init()
 
 MAX_RANDOM_GENOME = 50
